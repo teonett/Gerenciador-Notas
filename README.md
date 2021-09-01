@@ -1,4 +1,4 @@
-# Gerador de Notas - React
+# Gerador de Notas - React - Versao 1.0
 
 <img src="https://github.com/teonett/Gerenciador-Notas/blob/main/images/Pagina-Inicial.png">
 
