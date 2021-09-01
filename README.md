@@ -1,5 +1,8 @@
 # Gerador de Notas - React
 
+<img src="https://github.com/teonett/Gerenciador-Notas/blob/main/images/Pagina-Inicial.png">
+
+<img src="https://github.com/teonett/Gerenciador-Notas/blob/main/images/Pagina-Preenchida.png">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
