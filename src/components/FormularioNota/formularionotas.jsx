@@ -30,6 +30,7 @@ class FormularioNotas extends Component {
       <form className="form-cadastro"
         onSubmit={this._criarNota.bind(this)}
       >
+        <h1 className="form-cadastro-header {">Gerador de Notas</h1>
         <input
           type="text"
           placeholder="Título"

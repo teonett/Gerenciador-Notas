@@ -28,3 +28,13 @@
 .form-cadastro-submit:active {
   background-color: var(--secundaria-ativa);
 }
+
+.form-cadastro-header {
+  margin: 0;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 32px;
+  background-color: var(--secundaria);
+  color: white;
+}

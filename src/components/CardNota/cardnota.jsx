@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import { Momento } from 'momento';
-import './cardnota.css'
+import "./cardnota.css";
 
 class CardNota extends Component {
-
   constructor() {
     super();
     var today = new Date(),
-    time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
-   
+      time =
+        today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
     this.state = {
-      currentTime: time
-    }
+      currentTime: time,
+    };
   }
 
   render() {
@@ -21,7 +20,9 @@ class CardNota extends Component {
           <h3 className="card-nota-titulo">{this.props.titulo}</h3>
         </header>
         <p className="card-nota-texto">{this.props.texto}</p>
-        <p className="card-nota-hora">Atualizado as :{ this.state.currentTime }</p>
+        <p className="card-nota-hora">
+          Atualizado as :{this.state.currentTime}
+        </p>
       </section>
     );
   }
